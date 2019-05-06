@@ -6,5 +6,6 @@ import { pdfBase64 } from './pdfBase64';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  pdf = pdfBase64;
+  pdfBase64 = pdfBase64;
+  pdfString = 'assets/example.pdf';
 }
